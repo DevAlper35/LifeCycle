@@ -7,6 +7,10 @@ android {
     namespace = "com.mudurlu.lifecycle"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+    
     defaultConfig {
         applicationId = "com.mudurlu.lifecycle"
         minSdk = 24
